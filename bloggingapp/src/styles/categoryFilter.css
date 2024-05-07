@@ -1,0 +1,23 @@
+/* src/styles/CategoryFilter.css */
+
+/* Style for the category filter container */
+.category-filter-container {
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the category filter dropdown */
+  .category-dropdown {
+    width: 200px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    outline: none;
+  }
+  
+  /* Style for the category filter dropdown options */
+  .category-dropdown option {
+    padding: 8px;
+  }
+  

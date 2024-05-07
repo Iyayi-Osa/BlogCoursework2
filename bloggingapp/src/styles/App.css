@@ -1,0 +1,149 @@
+/* src/styles/app.css */
+
+/* Global styles */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+/* Navigation styles */
+
+.navbar {
+  background-color: #666;
+  padding: 10px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.navbar li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Login and Register form styles */
+
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"],
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Posts styles */
+
+.posts-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.post {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.post h3 {
+  color: #333;
+}
+
+.post p {
+  color: #666;
+}
+
+.post hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin-top: 10px;
+}
+
+/* Footer styles */
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Responsive styles */
+
+@media screen and (max-width: 600px) {
+  .form-container {
+      max-width: 100%;
+  }
+}
+
+/* Background image style */
+
+.background-image {
+  background-image: url('../assets/background-image.jpg'); /* Path to your background image */
+  background-size: cover;
+  background-position: center;
+  height: 500px; /* Adjust the height as needed */
+}

@@ -1,0 +1,16 @@
+.footer {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0px -1px 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+.footer p {
+  margin: 0;
+  font-size: 20npx;
+  color: #6c757d;
+}
+
