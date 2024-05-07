@@ -1,9 +1,7 @@
 // App.js
 
-
 import Login from './components/Login';
 import Register from './components/Register';
-
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Header from './components/Header';

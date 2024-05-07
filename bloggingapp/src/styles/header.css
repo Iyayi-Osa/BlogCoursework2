@@ -1,40 +1,23 @@
 /* src/styles/header.css */
 
-/* Import Loboto and Lobster fonts from Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700&display=swap');
-
-/* Overall header styling */
 .header {
   background-color: #007bff;
-  padding: 20px 0;
+  padding: 7px 0; /* Increased padding for better spacing */
 }
 
-/* Navbar container */
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-/* Brand/logo styling */
 .navbar-brand {
-  font-family: 'Lobster', cursive;
-  font-size: 10rem;
+  font-family: 'Lobster', cursive; /* Use Lobster font */
+  font-size: 2rem; /* Larger font size */
   color: #fff;
   text-decoration: none;
-  background-image: url('../assets/logo.png');
-  background-repeat: no-repeat;
-  background-size: auto 100%; /* Adjusted background size */
-  padding-left: 100px; /* Increased padding for the logo */
-  transition: transform 0.3s ease; /* Add smooth transition effect */
 }
 
-/* Hover effect for the brand/logo */
-.navbar-brand:hover {
-  transform: scale(1.05); /* Enlarge the logo on hover */
-}
-
-/* Navigation links styling */
 .navbar-nav {
   list-style: none;
   display: flex;
@@ -42,21 +25,18 @@
   padding: 0;
 }
 
-/* Individual navigation item styling */
 .nav-item {
-  margin-right: 20px;
+  margin-right: 20px; /* Increased margin between nav items */
 }
 
-/* Navigation link styling */
 .nav-link {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif; /* Use Roboto font */
   color: #fff;
   text-decoration: none;
-  font-size: 10rem;
-  transition: color 0.3s ease; /* Add smooth transition effect */
+  font-size: 1.2rem; /* Larger font size */
 }
 
-/* Hover effect for navigation links */
 .nav-link:hover {
-  color: #ffc107; /* Change color on hover */
+  text-decoration: underline;
 }
+

@@ -2,7 +2,6 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../assets/logo.png'; // Import your logo image
 import '../styles/header.css'; // Import header styles
 
 const Header = ({ isLoggedIn }) => {
@@ -10,11 +9,7 @@ const Header = ({ isLoggedIn }) => {
     <header className="header">
       <nav className="navbar">
         <div className="container">
-          {/* Add the logo as an <img> within the navbar-brand */}
-          <Link to="/" className="navbar-brand">
-            <img src={logo} alt="Logo" className="logo" />
-            DTruepath
-          </Link>
+          <Link to="/" className="navbar-brand">GodCity World</Link>
           <ul className="navbar-nav">
             <li className="nav-item">
               <Link to="/" className="nav-link">Home</Link>

@@ -1,6 +1,8 @@
+/* src/styles/footer.css */
+
 .footer {
   background-color: #f8f9fa;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
   position: fixed;
   bottom: 0;
@@ -13,4 +15,3 @@
   font-size: 20npx;
   color: #6c757d;
 }
-
